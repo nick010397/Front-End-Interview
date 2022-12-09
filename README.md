@@ -90,6 +90,23 @@
 - 한 스레드가 프로세스 자원을 변경하면, 다른 이웃 스레드(sibling thread)도 그 변경 결과를 즉시 볼 수 있다.
 
 
-
+## REST API에 대해 설명해주세요.
+  
+  ### A: REST API란 REST를 기반으로 만들어진 API를 의미합니다.
+  
+  ### REST란? 
+  - REST(Representational State Transfer)의 약자로 자원을 이름으로 구분하여 해당 자원의 상태를 주고받는 모든 것을 의미합니다.
+  - HTTP URI(Uniform Resource Identifier)를 통해 자원(Resource)을 명시하고,
+  - HTTP Method(POST, GET, PUT, DELETE, PATCH 등)를 통해 <자원에 대한 행위>
+  - 해당 자원(URI)에 대한 CRUD Operation을 적용하는 것을 의미합니다. <자원에 대한 행위의 내용 (Representations) >
+  
+  Create : 데이터 생성(POST)
+  Read : 데이터 조회(GET)
+  Update : 데이터 수정(PUT, PATCH)
+  Delete : 데이터 삭제(DELETE)
+  
+  ### RESTful이란?
+  RESTFUL이란 REST의 원리를 따르는 시스템을 의미합니다.   REST API의 설계 규칙을 올바르게 지킨 시스템을 RESTful하다 말할 수 있으며
+  모든 CRUD 기능을 POST로 처리 하는 API 혹은 URI 규칙을 올바르게 지키지 않은 API는 REST API의 설계 규칙을 올바르게 지키지 못한 시스   템은 REST API를 사용하였지만 RESTful 하지 못한 시스템이라고 할 수 있습니다.
 
 
