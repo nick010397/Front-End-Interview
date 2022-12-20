@@ -1,4 +1,4 @@
-# Front-End-Interview
+# Front-End-Interview (자세한건 Wiki로!!)
 
 # CS
 
